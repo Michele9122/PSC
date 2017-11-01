@@ -26,9 +26,12 @@
   <ItemGroup>
     <!-- Files not to publish (note that the 'dist' subfolders are re-added below) -->
     <Compile Remove="ClientApp\app\components\Nuova cartella\**" />
+    <Compile Remove="ClientApp\search\**" />
     <Content Remove="ClientApp\**" />
     <EmbeddedResource Remove="ClientApp\app\components\Nuova cartella\**" />
+    <EmbeddedResource Remove="ClientApp\search\**" />
     <None Remove="ClientApp\app\components\Nuova cartella\**" />
+    <None Remove="ClientApp\search\**" />
   </ItemGroup>
 
   <ItemGroup>

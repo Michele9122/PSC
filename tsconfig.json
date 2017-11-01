@@ -5,6 +5,8 @@
     "target": "es5",
     "sourceMap": true,
     "experimentalDecorators": true,
+    "noImplicitAny": false,
+ //   "suppressImplicitAnyIndexErrors": true, //errore any in public StudentDetail = {};
     "emitDecoratorMetadata": true,
     "skipDefaultLibCheck": true,
     "skipLibCheck": true, // Workaround for https://github.com/angular/angular/issues/17863. Remove this if you upgrade to a fixed version of Angular.
@@ -14,4 +16,7 @@
   },
   "exclude": [ "bin", "node_modules" ],
   "atom": { "rewriteTsconfig": false }
+
+
 }
+
